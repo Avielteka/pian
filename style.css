@@ -1,0 +1,58 @@
+.container {
+    background-color: blue;
+    height: 600px;
+    width: 400px
+}
+
+.pian {
+    border: 2px solid;
+    height: 300px;
+    width: 150px;
+}
+
+.qwithe {
+    border-radius: 3px;
+    border: solid 1px black;
+    height: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: thistle;
+}
+.qwithe:hover{
+    transition: box shadow;
+}
+.white-box {
+    position: relative;
+    z-index: 0;
+}
+
+.qblack {
+    border-radius: 3px;
+    border: solid 2px black;
+    height: 16px;
+    width: 60%;
+    background-color: black;
+    margin-bottom: 14px;
+}
+
+.black {
+    position: relative;
+    z-index: 1;
+}
+
+.first-black-box {
+    bottom: 330px;
+    position: relative;
+    margin-bottom: 12px;
+
+}
+.second-black-box {
+    position: relative;
+    bottom: 305px;
+    margin-bottom: 30px;
+}
+.three-black-box {
+    position: relative;
+    bottom: 255px;
+
+}
